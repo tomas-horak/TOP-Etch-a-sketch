@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body id="body">
+<section id="etch">
+    <div id="menu">
+
+<!--input from user-->
+<input id="getNumber" placeholder="enter-number from 1 to 9" onblur="getNum()">
+
+<!-- button for generating drawing board-->
+<button id="generate" onclick="generateTable()">Generate</button>
+
+<!-- buttons for choosing color-->
+<button id="defaultColor" onclick="chooseDefault()">Black</button>
+<button id="RandomColor" onclick="chooseRandom()">Random</button>
+
+<!--button for clearing board-->
+<button id="clear" onclick="generateTable()">Clear</button>
+</div>
+
+<table id="table">
+    
+</table>
+
+<script src="generating-table.js"></script>
+<script src="changing-colors.js"></script>
+
+</section>
+</body>
+</html>

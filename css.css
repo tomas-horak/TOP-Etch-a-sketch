@@ -1,0 +1,19 @@
+table, tr, td {
+    border: 1px solid black;
+
+  }
+
+
+
+#etch{
+  display: flex;
+  flex-direction: column;
+  
+  
+
+}
+td {
+ height: 20px;
+ width: 20px;
+ align-self: center;
+}

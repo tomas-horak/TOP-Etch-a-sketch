@@ -1,2 +1,2 @@
 # TOP-
-The Odin project - some solutios 
+The Odin project - Etch a sketch
