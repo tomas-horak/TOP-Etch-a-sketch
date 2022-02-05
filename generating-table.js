@@ -8,9 +8,11 @@ if (numberFromUser < 1 || numberFromUser > 10){
 
 
 //generating table
-
 function generateTable (){
-
+let tableHere = document.getElementById("tableHere")
+let createTable = document.createElement("table")
+createTable.id = "table"
+tableHere.appendChild(createTable)
 
 
 let body = document.getElementById("table");

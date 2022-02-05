@@ -9,8 +9,8 @@
 </head>
 <body id="body">
 <section id="etch">
-    <div id="menu">
 
+ <div id="menu">
 <!--input from user-->
 <input id="getNumber" placeholder="enter-number from 1 to 9" onblur="getNum()">
 
@@ -19,15 +19,15 @@
 
 <!-- buttons for choosing color-->
 <button id="defaultColor" onclick="chooseDefault()">Black</button>
-<button id="RandomColor" onclick="chooseRandom()">Random</button>
+<button id="randomColor" onclick="chooseRandom()">Random</button>
 
 <!--button for clearing board-->
 <button id="clear" onclick="generateTable()">Clear</button>
 </div>
 
-<table id="table">
-    
-</table>
+<div id="tableHere">
+
+</div>
 
 <script src="generating-table.js"></script>
 <script src="changing-colors.js"></script>
